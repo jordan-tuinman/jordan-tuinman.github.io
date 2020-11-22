@@ -1,4 +1,3 @@
-
 /* Notes section;
 
 font familes:
@@ -14,177 +13,147 @@ color palate:
 
 */
 
-
-
 body {
-    color: #424874;
-    margin: 0px;
-    background-color: #f4eeff;
+  color: #424874;
+  margin: 0px;
+  background-color: #f4eeff;
 }
 
-h1, h2{
-    font-family: 'Amatic SC', cursive;
+h1,
+h2 {
+  font-family: "Amatic SC", cursive;
 }
 
 header {
-    background-color: #dcd6f7;
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr))
-    
+  background-color: #dcd6f7;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 footer {
-    display: flex;
-    flex-direction: column;
-    justify-items: end;
-    align-items: center;
-    background-color: #424874;    
-    width: 100%;
-    height: 100px;
-    margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-items: end;
+  align-items: center;
+  background-color: #424874;
+  width: 100%;
+  height: 100px;
+  margin-top: 100px;
 }
 
 nav {
-    grid-column: 2 / 3;
-    justify-self: center;
-    align-self: center;
-    font-size: 2.5em;
+  grid-column: 2 / 3;
+  justify-self: center;
+  align-self: center;
+  font-size: 2.5em;
 }
-
 
 a {
-    font-family: 'Amatic SC', cursive;
-    color: black;
-    margin-right: 5px;
-    margin-left: 5px;
-
+  font-family: "Amatic SC", cursive;
+  color: black;
+  margin-right: 5px;
+  margin-left: 5px;
 }
 a:link {
-    text-decoration: none;
+  text-decoration: none;
 }
 a:hover {
-    color: #424874;
-    text-decoration: underline;
+  color: #424874;
+  text-decoration: underline;
 }
-
 
 p {
-    font-family: 'Andika', sans-serif;    
+  font-family: "Andika", sans-serif;
 }
-
-
-
 
 /* Class tags */
 
-
 .title {
-    margin-left: 50px;
-    color: black;
+  margin-left: 50px;
+  color: black;
 }
 
 .github-link {
-    grid-column: 3 / 3;
-    justify-self: end;
-    align-self: center;
-    font-size: 1.5em;
-    margin-right: 50px;
+  grid-column: 3 / 3;
+  justify-self: end;
+  align-self: center;
+  font-size: 1.5em;
+  margin-right: 50px;
 }
 
 .copyright {
-    font-size: .5em;
-    margin-bottom: 5px;
-    color: #dcd6f7;
+  font-size: 0.5em;
+  margin-bottom: 5px;
+  color: #dcd6f7;
 }
 
 .general-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 2fr;
-    width: 50%;
-    text-align: center;
-    color: black;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2fr;
+  width: 50%;
+  text-align: center;
+  color: black;
 }
-
 
 .profile-pic {
-    justify-self: center;
+  justify-self: center;
 }
 
-
 .body-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 100px;
-    margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .blog-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 2fr;
-    width: 50%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2fr;
+  width: 50%;
 }
 
 .blog-title {
-    display: inline;
-    grid-row: 1 / 2;
-    grid-column: 1 / 2;
-    justify-self: start;
-    align-self: center;
+  display: inline;
+  grid-row: 1 / 2;
+  grid-column: 1 / 2;
+  justify-self: start;
+  align-self: center;
 }
 
 .blog-date {
-    display: inline;
-    grid-row: 1 / 2;
-    grid-column: 1 / 2;
-    justify-self: end;
-    align-self: center;
-
+  display: inline;
+  grid-row: 1 / 2;
+  grid-column: 1 / 2;
+  justify-self: end;
+  align-self: center;
 }
 
 .blog-content {
-    color: black;
+  color: black;
 }
 
 .blog-separator {
-    border-style: dotted none none none;
-    border-width: .25em;
-    margin-top: 50px;
-    width: 5%;
-    color: #424874;
+  border-style: dotted none none none;
+  border-width: 0.25em;
+  margin-top: 50px;
+  width: 5%;
+  color: #424874;
 }
-
 
 .form-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 5fr;
-    width: 50%;
-    color: black;
-    text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 5fr;
+  width: 50%;
+  color: black;
+  text-align: center;
 }
-
 
 .contact-me {
-    align-self: center;
-
+  align-self: center;
 }
 
-
-
-
-
 /* ID tags */
-
-
-
-
-
-
-
-
-
-
-
