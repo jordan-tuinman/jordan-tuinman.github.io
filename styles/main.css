@@ -151,6 +151,7 @@ p {
 .blog-separator {
     border-style: dotted none none none;
     border-width: .25em;
+    margin-top: 50px;
     width: 5%;
     color: #424874;
 }

@@ -26,11 +26,23 @@
             <h2 class="blog-title">Sprint 2 Technical</h2>
             <h2 class="blog-date">22<sup>nd</sup> November 2020</h2>
             <div class="blog-content">
-                <h1>Lorem Ipsum</h1>
-                <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h2>
-            
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        
+                <h1>Inline vs Inline-block</h1>
+                <h2>What does it mean to display inline vs inline blocks?</h2>
+                <p>To explain what this means and what the difference is, I think we first need to understand the basic rules of three display property types: block, inline, and inline-block.</p>
+                <p>Block elements respect margins of other elements, meaning that this can and will move them around the page depending on the margin settings. They also force line break so that no other element can sit beside them, only above or below.
+                    Examples of block elements are paragraphs, headings, and lists. 
+                </p>  
+                <p>An inline element means that the element will allow other elements to sit beside it on the left or right - inline. The inline elements respect left and right margins, but top and bottom margins are ignored. 
+                    They can not have a width or height set, they just are how they are - the width depending on the content inside.
+                    Examples of inline elements are spans, inputs, and labels. 
+                <p>Inline-block elements are a sort of combination of the two; the best of both worlds in a sense, depending on the intended use. 
+                    We must set this property, and it gives us a way to adjust the width and height on elements that otherwise we couldn’t. 
+                    This also will let us put boxes side by side and wrap them if there is adequate space in the container, because they do not force a line break unlike a regular block element.
+                    So, essentially it is the same as a inline element except we can set te width and height. It is literally an inline block element, hence the name.
+                </p> 
+                <p>In the image below you can see some examples of elements with each of the above display properties, which should give an idea about how they appear on a page:
+                </p>
+                <img src="images/inline-vs-inlineblock.png" alt="display-property-picture">
             
             
             </div>
