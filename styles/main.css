@@ -143,6 +143,12 @@ p {
   color: #424874;
 }
 
+.blog-link {
+  font-family: 'Andika', sans-serif;
+  color: #424874;
+}
+
+
 .form-container {
   display: grid;
   grid-template-columns: 1fr;
