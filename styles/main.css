@@ -54,9 +54,11 @@ a {
   margin-right: 5px;
   margin-left: 5px;
 }
+
 a:link {
   text-decoration: none;
 }
+
 a:hover {
   color: #424874;
   text-decoration: underline;
